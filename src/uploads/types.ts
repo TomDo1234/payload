@@ -86,6 +86,7 @@ export type Upload = {
   resizeOptions?: ResizeOptions;
   formatOptions?: ImageUploadFormatOptions
   trimOptions?: ImageUploadTrimOptions
+  filesRequired?: boolean
 }
 
 export type File = {
